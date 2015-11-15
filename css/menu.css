@@ -1,0 +1,76 @@
+.menu {
+text-align:left;
+color:#FFFFFF;
+height:26px;
+width:100%}
+
+.menu ul.menuBar{
+list-style:none;
+margin:0px;
+font-size:12pt; 
+}
+
+.menu ul.menuBar li{
+float:left;
+display:block;
+position:relative; /*关键*/
+margin-right:2px; }   
+ 
+.menu ul.menuBar li a.menuLink{/*一级菜单正常样式*/
+display:block;
+width:125px;
+height:26px;
+color:#FFF;
+text-decoration:none;
+background-color:#90BA18;
+text-align:center;
+line-height:26px;}
+
+.menu ul.menuBar li:hover a.menuLink{
+/*鼠标移到一级菜单时的样式*/
+background-color:#B2DE31;
+color:#000;}
+
+.menu ul.menuBar li ul,/*隐藏二级菜单*/
+.menu ul.menuBar li:hover ul.subMenu3
+/*隐藏三级菜单*/{
+margin:0;
+display:none;}
+
+.menu ul.menuBar li ul li a.m2Link,
+/*二级菜单正常样式*/
+.menu ul.menuBar li ul li:hover ul li a.m3Link
+/*三级菜单正常样式*/{
+text-decoration:none;
+color:#000;
+display:block;
+text-align:center;
+width:124px;
+background-color:#EBFEAC;
+margin-top:1px; /*子菜单行间距*/}
+
+.menu ul.menuBar li ul li:hover a.m2Link,
+/*鼠标移到二级菜单时的样式*/
+.menu ul.menuBar li ul li ul li:hover a.m3Link
+/*鼠标移到三级菜单时的样式*/{
+background-color:#D3F666;
+color:#000;}
+
+.menu ul.menuBar li:hover ul{ 
+/*显示二级菜单*/
+position:absolute;
+display:block;
+width:124px;
+font-size:11pt;
+/*二级及其下级菜单字体大小*/
+background-color:#FFF;
+/*菜单行间显示的颜色*/
+left:1px;}
+
+.menu ul.menuBar li ul li:hover ul.subMenu3
+/*显示三级菜单*/{
+padding-left:1px; /*每级菜单的间距*/
+display:block;
+position:absolute; /*相对父菜单定位*/
+left:124px; /*该数值根据菜单宽度设置*/
+top:0px;}

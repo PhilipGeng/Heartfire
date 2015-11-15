@@ -1,0 +1,122 @@
+
+/* ------- Remove Chrome's border around active fields ------- */
+
+*:focus {
+	outline: none;
+}
+
+/* ------- Disable background and border for input fields ------- */
+
+input {
+	background: #FFFFFF;
+	border: 0;
+}
+
+
+
+
+/* ------- Container ------- */
+
+#lcontainer {
+	margin: 30px;
+	margin-top:0;
+	width: 500px;
+	float:left;
+	height: 350px;
+	text-align: left;
+	font-family: Verdana, Arial;
+	font-weight: normal;
+	font-size: 12px;
+	color: #ff0000;
+
+}
+#contenttext {
+	width: 300px;
+	float:left;
+
+}
+
+/* ------- Login Form ------- */
+
+form,  {
+	width: 524px;
+	height: 500px;
+	padding-top: 1px;
+}
+
+.login, .welcome-user {
+	width: 470px;
+	float: left;
+	margin-top: 33px;
+	margin-left: 40px;
+	font-size: 20px;
+}
+
+.username-text {
+	width: 500px;
+	float: left;
+	margin-top: 50px;
+	margin-left: 40px;
+}
+
+.password-text {
+	width: 500px;
+	float: left;
+	margin-top: 50px;
+	margin-left: 40px;
+}
+
+
+
+.username-field {
+	width: 500px;
+	height: 38px;
+	float:left;
+	margin-left: 40px;
+	background: url(../images/username-field.png) center left no-repeat;
+}
+
+.username-field:hover {
+	background: url(../images/username-field-hover.png) center left no-repeat;
+}
+
+.password-field {
+	width: 500px;
+	height: 38px;
+	float:left;
+	margin-left: 40px;
+	background: url(../images/password-field.png) center left no-repeat;
+}
+
+.password-field:hover {
+	background: url(../images/password-field-hover.png) center left no-repeat;	
+}
+
+input[type="text"], input[type="password"] {
+	width: 120px;
+	height: 16px;
+	margin-top: 10px;
+	margin-left: 10px;
+	font-family: Verdana, Arial;
+	font-size: 16px;
+	color: #2d2d2d;
+}
+
+
+
+input[type="submit"] {
+	width: 95px;
+	height: 73px;
+	float: left;
+	margin-top: 12px;
+	margin-left: 20px;
+	font-family: Verdana, Arial;
+	font-size: 26px;
+	color: #ff0000;
+background: url(../images/goho.png)center center no-repeat;
+}
+
+input[type="submit"]:hover, input[type="submit"]:focus {
+	background: url(../images/go-hover.png) top left no-repeat;
+}
+

@@ -1,0 +1,227 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #FFFFFF;
+	font-family: 'Marvel', sans-serif;
+	font-size: 14px;
+	color: #2F2B2B;
+
+}
+
+
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 240%;
+}
+x {
+	margin-top: 0;
+}
+a{
+	text-decoration:none;
+}
+
+
+ul, ol {
+}
+
+#wrapper {
+width:100%;
+background:url(../images/bgr.jpg)repeat center center; overflow:hidden;
+min-width£º1400px;
+_width:expression((document.documentElement.clientWidth||document.body.clientWidth)<1400?"1400px":"");
+height:100%;
+}
+#wrapper2{
+
+}
+
+#header {
+	width: 1100px;
+	height: 115px;
+	margin: 0 auto;
+	padding: 0px 50px;
+	border-bottom-style: ridge;
+}
+
+
+
+#logo {
+	float: left;
+	margin: 0;
+	width:460px;
+	padding: 0;
+	color: #FFFFFF;
+}
+#name{
+	float:left;
+	margin-left:50px;
+	margin-right:50px;
+	width:500px;
+	height:100px;
+}
+#name p{
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	letter-spacing: -2px;
+	text-align: left;
+	font-family: 'Delius Unicase', cursive;
+	font-size: 40px;
+	font-weight: bold;
+	color: #FFB700;
+}
+#name d{
+	margin: 0px;
+	padding: 0px 0px 0px 50px;
+	letter-spacing: -2px;
+	text-align: left;
+	font-family: 'Delius Unicase', cursive;
+	font-size: 24px;
+	font-style: italic;
+	color: #FFB700;
+}
+
+
+#account{
+	width: 1100px;
+	margin: 0 auto;
+	padding: 0px 50px;
+	border-bottom-style: ridge;
+}
+
+#account p{
+	margin: 0;
+	padding-right: 30px;
+	letter-spacing: 1px;
+	text-align: right;
+	font-weight: normal;
+
+}
+
+#page {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+
+#content {
+	float: right;
+	width: 960px;
+	margin-left:50px;
+	padding: 0px 0px 0px 0px;
+}
+
+
+.title {
+	margin: 0px;
+	margin-bottom: 25px;
+	padding: 7px 0px 0px 0px;
+	letter-spacing: -1px;
+}
+
+.title a {   
+	border: none;
+	letter-spacing: 1px;
+	letter-spacing: -2px;
+	text-align: left;
+	font-family: 'Delius Unicase', cursive;
+	font-size: 26px;
+	font-weight: Bold;
+	color: #FF6F00; 
+}
+
+
+.detail {
+	padding: 0px 0px 30px 0px;
+	padding-bottom: 20px;
+	text-align: justify;
+}
+
+#sidebar {
+	float: right;
+	width: 170px;
+	padding: 0px 0px 0px 0px;
+	font-family: 'Marvel', sans-serif;
+	border-right-style: ridge;
+}
+
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#sidebar li {
+	margin: 0;
+	padding: 0;
+	text-decoration:none;
+}
+
+#sidebar li ul {
+	margin: 0px 0px;
+	padding-bottom: 50px;
+}
+
+#sidebar li li {
+	line-height: 35px;
+	border-bottom: 1px solid #3A3636;
+	padding-left: 20px;
+	background: url(../images/img01.gif) no-repeat left 13px;
+	margin: 0px 30px;
+	font-family: 'Marvel', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+#sidebar li li span {
+}
+
+#sidebar li li a {
+	padding: 0px 0px 0px 0px;
+	text-decoration:none;
+}
+
+#sidebar h2 {
+	margin:0 auto;
+	margin-top: 25px;
+	padding: 0px 0px 0px 0px;
+	letter-spacing: -2px;
+	text-align: left;
+	font-family: 'Delius Unicase', cursive;
+	font-size: 20px;
+	font-weight: normal;
+	color: #FFB700;
+	text-decoration:none;
+}
+
+
+
+#sidebar p {
+	margin: 0 0px;
+	padding: 0px 30px 20px 20px;
+	text-align: justify;
+	font-family: 'Delius Unicase', cursive;
+	font-size: 14px;
+	color: #000000;
+	text-decoration:none;
+}
+
+
+
+#footer {
+	height: 50px;
+	margin: 0 auto;
+	padding: 0px 0 15px 0;
+	border-top-style:ridge;	
+}
+
+#footer p {
+	margin: 0;
+	line-height: normal;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-align: center;
+	font-weight: normal;
+}
